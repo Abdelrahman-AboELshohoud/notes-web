@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import api from "../api";
 import Note from "../components/Note"; // Import the new Note component
-import "../styles/Home.css";
 
 export default function Home() {
   const [notes, setNotes] = useState([]);
