@@ -1,0 +1,14 @@
+env/
+# Frontend files to ignore
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.DS_Store
+
+# Backend files to ignore
+*.pyc
+__pycache__/
+*.sqlite3
+*.env
+*.log
